@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hot Chocolate ☕</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body{
+      background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+      max-width: 100%;
+      height: auto;
+      
+      
+    }
+    h1{
+      color:brown;
+      font-size: 24;
+      font-family: monospace;
+      font-weight: 300;
+      text-align: center;
+      text-decoration: dotted;
+      border:1px solid whitesmoke;
+      padding: 20px;
+      line-height: 30px;
+
+    }
+      
+    h2{
+      color:brown;
+      font-size: 20px;
+      font-family:monospace;
+      font-weight:300;
+      text-align:center;
+    }
+    h3{
+      text-align: center;
+      font-size: 18px;
+      font-family: 'Courier New', Courier, monospace;
+      color:brown;
+      margin:0 auto;
+      line-height: 1.0;
+      
+    }
+    img{
+      display:block;
+      margin: 0 auto;
+      border-radius: 4px;
+      max-width: 100%;
+
+    
+    }
+    button{
+      color:white;
+      background-color:brown;
+      padding: 20px;
+      text-align: center ;
+      box-shadow: palevioletred;
+      font-style:italic;
+      margin:4px 2px;
+      display:inline-block;
+      font-size: 18px;
+      border-radius:22px;
+      transition:all 100ms ease-in;
+    
+    }
+    button:hover{
+      opacity:0.7;
+      cursor:pointer;
+    }
+
+  }
+    .container {
+      line-height:50px;
+      position:relative;
+      box-sizing :border-box;
+      padding:20px;
+      width:inherit;
+    
+     }
+
+     .vertical-center{
+      margin:0;
+      position:absolute;
+      top:50%;
+      
+     }
+     p{
+      text-align: center;
+      color:brown;
+      font-style: inherit;
+      font-size: 14;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     a{
+      color:brown;
+     }
+     br{
+      color:brown;
+     }
+  hr{
+    color:brown;
+  }
+     
+  </style>
+
+  <div class="container">
+    <div class="vertical-center">
+  </div>
+</div>
+</head>
+<body>
+  <h1>
+     <span><strong>Hot Chocolate Delight  ☕</strong></span>
+    </h1>
+    
+    <h2>
+      <em>Embracing the Passion and Savouring Every Sip !</em>
+    </h2>
+    <img 
+img src=https://s3.amazonaws.com/shecodesio-production/uploads/files/000/087/662/original/Hot_Chocolate.jpg?1688154895
+alt="Hot Chocolate"
+width="400"
+    >
+    <hr>
+    
+<h3>Hot chocolate, also known as hot cocoa or drinking chocolate, 
+  is a heated drink consisting of shaved or melted chocolate
+  or cocoa powder,heated milk or water, and usually a sweetener.
+  It is often garnished with whipped cream or marshmallows.
+<br>
+<br>
+
+<a href="https://en.wikipedia.org/wiki/Hot_chocolate"
+target="_blank">
+Learn more on Wikepedia
+</a>
+</p>
+      </p>
+      
+      <br>
+
+
+      <button>
+        👉Grab Your Hot Chocolate
+      </button>
+       <p>
+      This page was built by Kelly Muraicho 
+       </p>
+      
+<script>
+  function grabDrink (){
+  let drink = prompt("Can I get you a Hot Chocolate ?");
+  drink=drink.toLowerCase();
+
+
+if(drink==="yes"){
+alert("Great Choice😊");
+
+}else {
+alert("Goodbye 😔");
+}
+
+  }
+
+
+  let drinkButton= document.querySelector("button");
+  drinkButton.addEventListener("click",grabDrink);
+  
+
+    
+
+</script>
+</body>
+</html>

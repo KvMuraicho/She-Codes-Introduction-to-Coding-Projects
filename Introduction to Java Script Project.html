@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=>, initial-scale=1.0"/>
+    <title>Document</title>
+    <style>
+      h1{
+        text-align: center;
+        color:pink;
+        padding:0;
+      }
+      ul{
+        text-align: center;
+        padding: 0;
+        line-height: 1.5;
+        color:orange;
+      li{
+      list-style: none;
+    }
+
+    button{
+      display:block;
+      margin: 0 auto;
+      background-color: brown;
+    }
+    }
+    
+    </style>
+    <h1>
+    She Codes
+    </h1>
+    <ul>
+      <li class="advanced">
+        She Codes Work Shop
+        </li>
+        <li class="free">
+          She Codes Express
+          </li>
+          <li class="free">
+            She Codes Boot Camp
+            </li>
+            <li class="free">
+              She Codes Story
+            </li>
+            <button>
+              contact me
+            </button>
+    </ul>
+  <script>
+    function contactus(){
+    let name=prompt("What is your name?");
+    let email=prompt("What is your email adress?");
+    let h1= document.querySelector("h1");
+    h1.innerHtml="Thank you" + name +"We will be in touch !";
+    }
+
+    let contactbutton=document.querySelector("button");
+    contactbutton.addEventListener("click",contactus);
+  
+  </script>
+    <body></body>
+  </html>
+  <body>
+  </body>
+</html>
